@@ -6,11 +6,7 @@ l'application "todo list" est une petite app crée n utilisant les fonctionnalit
   
   - Body-parser : pour récupérer les paramètres envoyés lors d'une requete "post".
   
-  - Middlewares : une collection de fonction à exécuter en ordre pour éviter des problèmes ou faire de l'authentification avant de 
-  
-  renvoyer la réponse à l'utilisateur.
+  - Middlewares : une collection de fonction à exécuter en ordre pour éviter des problèmes ou faire de l'authentification avant de renvoyer la réponse à l'utilisateur.
 
 
-Express.js est bas niveau et ne permet pas de développer complétement les app web, mais il permet de déléguer plusieurs tâches à d'autre 
-
-framworks ou langages. Ici, on a utilisé le moteur de templates "ejs" pour créer les pages html demandées par l'utilisateur.
+Express.js est bas niveau et ne permet pas de développer complétement les app web, mais il permet de déléguer plusieurs tâches à d'autres framworks ou langages. Ici, on a utilisé le moteur de templates "ejs" pour créer les pages html demandées par l'utilisateur.
